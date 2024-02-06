@@ -23,3 +23,6 @@ Then in airflow/airflow.cfg change dags_folder = <pwd command output>/src
 $ export AIRFLOW_HOME=$(pwd)/airflow && export AIRFLOW_CONFIG=$AIRFLOW_HOME/airflow.cfg
 $ airflow webserver --port 8080
 $ airflow scheduler
+
+lsof -i :8080 -S
+kill fucking airflow
