@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "my-company"
+version = "0.1.0"
+description = "DAG's package for airflow"
+authors = ["Your Name <you@example.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+packages = [{include = "my_company"}]
+
+[tool.poetry.dependencies]
+python = "3.9.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
