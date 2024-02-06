@@ -9,6 +9,7 @@ packages = [{include = "my_company"}]
 
 [tool.poetry.dependencies]
 python = "3.9.18"
+bs4 = "^0.0.2"
 
 
 [build-system]
